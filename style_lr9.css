@@ -1,7 +1,11 @@
-body{
+html {
     width: 100%;
     height: 100%;
+}
+body{
     text-align: center;
+    /* background-image: -webkit-radial-gradient(circle closest-side, #12356d, #000);
+	background-image: radial-gradient( circle closest-side, #12356d, #000); */
 }
 .b-popup{
     width:100%;
@@ -91,11 +95,10 @@ body{
     transform: translateY(-50%) translateX(-50%);
 }
 .rand_number_user{
-    width: 25%;
-    height: 5%;
-    background-color:yellow;
+    width: 175px;
+    height: 230px;
     position: absolute;
-    top:32%;
+    top:40%;
     left: 20%;
     transform: translateY(-50%) translateX(-50%);
 }
@@ -127,11 +130,10 @@ body{
     text-align: center;
 }
 .rand_number_comp{
-    width: 25%;
-    height: 5%;
-    background-color: yellow;
+    width: 175px;
+    height: 230px;
     position: absolute;
-    top:32%;
+    top:40%;
     left: 80%;
     transform: translateY(-50%) translateX(-50%);
 }
@@ -162,4 +164,14 @@ body{
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
+}
+@media (max-width: 480px){
+    .rand_number_comp{
+        width: 125px;
+        height: 150px;
+    }
+    .rand_number_user{
+        width: 125px;
+        height: 150px;
+    }
 }
