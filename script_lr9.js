@@ -9,8 +9,8 @@ let closew;
 var score = " score";
 var number=" number";
 closew=document.getElementById("Closew");
-var red_imgs=new Array('lr9/6_red.png', 'lr9/7_red.png', 'lr9/8_red.png', 'lr9/9_red.png', 'lr9/10_red.png', 'lr9/valet_red.png', 'lr9/dama_red.png', 'lr9/king_red_2.png', 'lr9/tyz_red.png');
-var black_imgs=new Array('lr9/6_black.png', 'lr9/7_black.png', 'lr9/8_black.png', 'lr9/9_black.png', 'lr9/10_black.png', 'lr9/valet_black.png', 'lr9/Dama_black.png', 'lr9/king_black.png', 'lr9/tyz_black.png');
+var red_imgs=new Array('6_red.png', '7_red.png', 'lr9/8_red.png', 'lr9/9_red.png', 'lr9/10_red.png', 'lr9/valet_red.png', 'lr9/dama_red.png', 'lr9/king_red_2.png', 'lr9/tyz_red.png');
+var black_imgs=new Array('6_black.png', '7_black.png', 'lr9/8_black.png', 'lr9/9_black.png', 'lr9/10_black.png', 'lr9/valet_black.png', 'lr9/Dama_black.png', 'lr9/king_black.png', 'lr9/tyz_black.png');
 var numbers=new Array(6, 7, 8, 9, 10, 2, 3, 4, 11);
 let sproba=0;
 window.onload=function(){
