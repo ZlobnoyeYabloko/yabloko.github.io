@@ -8,6 +8,7 @@ var fail="You failed!";
 let closew;
 var score = " score";
 var number=" number";
+var nicha=" Ніч'я"
 closew=document.getElementById("Closew");
 var red_imgs=new Array('lr9/6_red.png', 'lr9/7_red.png', 'lr9/8_red.png', 'lr9/9_red.png', 'lr9/10_red.png', 'lr9/valet_red.png', 'lr9/dama_red.png', 'lr9/king_red_2.png', 'lr9/tyz_red.png');
 var black_imgs=new Array('lr9/6_black.png', 'lr9/7_black.png', 'lr9/8_black.png', 'lr9/9_black.png', 'lr9/10_black.png', 'lr9/valet_black.png', 'lr9/Dama_black.png', 'lr9/king_black.png', 'lr9/tyz_black.png');
@@ -53,6 +54,11 @@ function Generate(){
         setTimeout("compNumber=0", 1000);
         setTimeout("sproba=0", 1000);
         }
+        if(compScore==userScore)
+        {
+        setTimeout("document.getElementById(`Bpopup`).hidden = nicha", 1000);
+        setTimeout("document.getElementById(`Text`).innerHTML=fail", 1000);
+        }
     }
     if(sproba>=3)//
     {
@@ -68,6 +74,11 @@ function Generate(){
         setTimeout("userNumber=0", 1000);
         setTimeout("compNumber=0", 1000);
         setTimeout("sproba=0", 1000);
+        }
+        if(compScore==userScore)
+        {
+        setTimeout("document.getElementById(`Bpopup`).hidden = nicha", 1000);
+        setTimeout("document.getElementById(`Text`).innerHTML=fail", 1000);
         }
     }
 }
