@@ -1,5 +1,5 @@
 var numbers=new Array(1,2,3,4,5,6,7,8,9);
-var images=new Array('js/lr10/Vishna.png', 'js/lr10/Pizza.png','js/lr10/Pivo.png', 'js/lr10/Kukuruza.png','js/lr10/Kapusta.png', 'js/lr10/Burger.png','js/lr10/Banana.png', 'js/lr10/Avokado.png', 'js/lr10/Ananas.png');
+var images=new Array('lr10/Vishna.png', 'lr10/Pizza.png','lr10/Pivo.png', 'lr10/Kukuruza.png','lr10/Kapusta.png', 'lr10/Burger.png','lr10/Banana.png', 'lr10/Avokado.png', 'lr10/Ananas.png');
 let count=0;
 let user_name = prompt('Enter your name');
 let count_win=0;
