@@ -164,8 +164,34 @@ body{
         top:18%;
     }
   }
+  @media screen and (max-height: 800px) {
+    .spinner-container-1 {
+        transform: translate(-50%, -50%) scale(0.7, 0.7);
+      }
+    .spinner-container-2 {
+        transform: translate(-50%, -50%) scale(0.7, 0.7);
+    }
+    .spinner-container-3 {
+        transform: translate(-50%, -50%) scale(0.7, 0.7);
+    }
+    .count
+    {
+        top:18%;
+    }
+  }
   
   @media screen and (max-width: 500px) {
+    .spinner-container-1 {
+        transform: translate(-50%, -50%) scale(0.5, 0.5);
+      }
+    .spinner-container-2 {
+        transform: translate(-50%, -50%) scale(0.5, 0.5);
+    }
+    .spinner-container-3 {
+        transform: translate(-50%, -50%) scale(0.5, 0.5);
+    }
+  }
+  @media screen and (max-height: 500px) {
     .spinner-container-1 {
         transform: translate(-50%, -50%) scale(0.5, 0.5);
       }
