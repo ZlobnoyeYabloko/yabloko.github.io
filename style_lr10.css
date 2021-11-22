@@ -164,7 +164,7 @@ body{
         top:18%;
     }
   }
-  @media screen and (max-height: 800px) {
+  @media screen and (max-height: 850px) {
     .spinner-container-1 {
         transform: translate(-50%, -50%) scale(0.7, 0.7);
       }
