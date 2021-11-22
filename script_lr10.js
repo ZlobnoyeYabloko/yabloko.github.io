@@ -92,7 +92,7 @@ function Generate()
                         setTimeout("document.getElementById(`Text`).innerHTML=`СуперДуперМега Харош`", 1750);
                         count_win=0;
                     }
-                    if(count_win<1)
+                    if(count_win==0)
                     {
                         setTimeout("document.getElementById(`Bpopup`).hidden = false", 1750);
                         setTimeout("document.getElementById(`Text`).innerHTML=`Не харош`", 1750);
