@@ -1,0 +1,185 @@
+﻿html {
+    width: 100%;
+    height: 100%;
+}
+body{
+    text-align: center;
+    /* background-image: -webkit-radial-gradient(circle closest-side, #12356d, #000);
+	background-image: radial-gradient( circle closest-side, #12356d, #000); */
+}
+.Jh1{
+    color: blueviolet;
+    font-size: 20px;
+    display: block;
+}
+li{
+    list-style-type: none;
+}
+.b-popup{
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+    left: 0px;
+}
+.b-popup-content{
+    margin:40px auto 0px auto;
+    width: 40%;
+    height: 10%;
+    background-color: rgba(13, 91, 228, 0.658);
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+    opacity: 1;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.b-popup-close
+{
+    float: right;
+}
+.b-popup-close::after{
+    content: '\2716';
+    color: black;
+    width: 1em;
+    float: right;
+}
+.b-popup-text{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 25px;
+}
+.wait
+{
+    width: 10%;
+    height: 5%;
+    background-color: blueviolet;
+    position: absolute;
+    top:35%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    padding: 20px 0px 0px 0px;
+    font-size: 25px;
+    text-align: center;
+}
+.user_name{
+    width: 25%;
+    height: 5%;
+    position: absolute;
+    top:12%;
+    left: 20%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.comp_name{
+    width: 25%;
+    height: 5%;
+    position: absolute;
+    top:12%;
+    left: 80%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.score_user{
+    width: 25%;
+    height: 5%;
+    background-color: rgb(0, 195, 255);
+    position: absolute;
+    top:20%;
+    left: 20%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.score_comp{
+    width: 25%;
+    height: 5%;
+    background-color: rgb(21, 255, 0);
+    position: absolute;
+    top:20%;
+    left: 80%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.rand_number_user{
+    width: 175px;
+    height: 230px;
+    position: absolute;
+    top:40%;
+    left: 20%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.number_user{
+    width: 25%;
+    height: 5%;
+    position: absolute;
+    top:28%;
+    left: 20%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+}
+.user-score{
+    width: 25%;
+    height: 5%;
+    position: absolute;
+    top:16%;
+    left: 20%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+}
+.comp-score{
+    width: 25%;
+    height: 5%;
+    position: absolute;
+    top:16%;
+    left: 80%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+}
+.rand_number_comp{
+    width: 175px;
+    height: 230px;
+    position: absolute;
+    top:40%;
+    left: 80%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.number_comp{
+    width: 25%;
+    height: 5%;
+    position: absolute;
+    top:28%;
+    left: 80%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+}
+.generate{
+    width: 30%;
+    height: 10%;
+    background-color: greenyellow;
+    position: absolute;
+    top:25%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+    vertical-align: middle;
+}
+.text-align
+{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+@media (max-width: 480px){
+    .rand_number_comp{
+        width: 125px;
+        height: 150px;
+    }
+    .rand_number_user{
+        width: 125px;
+        height: 150px;
+    }
+}
